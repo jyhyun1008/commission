@@ -1,7 +1,5 @@
 <script setup lang="ts">
 
-await navigateTo('/getting-started')
-
 const { data: page } = await useAsyncData('index', () => queryCollection('landing').path('/').first())
 if (!page.value) {
   throw createError({ statusCode: 404, statusMessage: 'Page not found', fatal: true })

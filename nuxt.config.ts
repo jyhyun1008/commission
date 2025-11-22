@@ -34,17 +34,19 @@ export default defineNuxtConfig({
   },
 
   compatibilityDate: '2024-07-11',
-
+  routeRules: {
+    '/**': { prerender: true }
+  },
   nitro: {
     prerender: {
       routes: [
         '/'
       ],
       crawlLinks: true,
-      autoSubfolderIndex: false
+      failOnError: false,
     }
   },
-
+  ssr: true,
   eslint: {
     config: {
       stylistic: {
