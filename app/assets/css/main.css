@@ -19,17 +19,23 @@
   --color-green-900: #0A5331;
   --color-green-950: #052E16;
 }
-
 @font-face {
-    font-family: 'Binggre';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_one@1.0/Binggrae.woff') format('woff');
-    font-weight: normal;
+    font-family: 'GyeonggiMillenniumTitle';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Light.woff') format('woff');
+    font-weight: 300;
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Binggre';
-    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2110@1.0/Binggrae-Bold.woff2') format('woff2');
+    font-family: 'GyeonggiMillenniumTitle';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Light.woff') format('woff');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'GyeonggiMillenniumTitle';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Bold.woff') format('woff');
     font-weight: 700;
     font-display: swap;
 }
@@ -38,10 +44,26 @@
   --ui-container: var(--container-8xl);
 }
 
-* {
-  font-family:'Binggre';
+body {
+  font-size: 18px;
 }
 
-td {
+td, th, code {
+  font-size: 18px;
+}
+
+code {
+  color: var(--ui-primary);
+}
+
+* {
+  font-family:'GyeonggiMillenniumTitle';
+}
+
+td, th {
   text-align: center;
+}
+
+th:nth-child(1), td:nth-child(1) {
+  width: 20%;
 }

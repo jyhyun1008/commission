@@ -29,7 +29,7 @@ const { header } = useAppConfig()
         class="h-6 w-auto shrink-0"
       />
 
-      <span v-else-if="header?.title">
+      <span v-else-if="header?.title" style="color: var(--ui-primary);">
         {{ header.title }}
       </span>
     </template>
