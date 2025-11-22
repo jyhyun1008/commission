@@ -1,7 +1,7 @@
 export default defineAppConfig({
   ui: {
     colors: {
-      primary: 'green',
+      primary: 'pink',
       neutral: 'slate'
     },
     footer: {
@@ -55,11 +55,11 @@ export default defineAppConfig({
     title: 'Table of Contents',
     bottom: {
       title: 'Community',
-      edit: 'https://github.com/nuxt-ui-templates/docs/edit/main/content',
+      edit: 'https://github.com/jayhyun1008/nuxt-wiki/edit/main/content',
       links: [{
         icon: 'i-lucide-star',
         label: 'Star on GitHub',
-        to: 'https://github.com/nuxt/ui',
+        to: 'https://github.com/jayhyun1008/nuxt-wiki',
         target: '_blank'
       }, {
         icon: 'i-lucide-book-open',
