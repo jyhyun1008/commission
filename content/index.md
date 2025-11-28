@@ -4,7 +4,7 @@ seo:
   description: Create stunning, fast and SEO-optimized documentation sites with Nuxt UI.
 ---
 
-::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950"}
+::u-page-hero{class="dark:bg-gradient-to-b from-neutral-900 to-neutral-950 titlebg"}
 ---
 orientation: horizontal
 ---
@@ -24,7 +24,7 @@ Build professional documentation with Nuxt UI's powerful components, enhanced ty
   size: xl
   trailing-icon: i-lucide-arrow-right
   ---
-  Get started
+  대문 바로가기
   :::
 
   :::u-button
@@ -40,35 +40,7 @@ Build professional documentation with Nuxt UI's powerful components, enhanced ty
   :::
 
 #default
-  :::prose-pre
-  ---
-  code: |
-    export default defineNuxtConfig({
-      modules: [
-        '@nuxt/ui',
-        '@nuxt/content',
-        'nuxt-og-image',
-        'nuxt-llms'
-      ],
-
-      css: ['~/assets/css/main.css']
-    })
-  filename: nuxt.config.ts
-  ---
-
-  ```ts [nuxt.config.ts]
-  export default defineNuxtConfig({
-    modules: [
-      '@nuxt/ui',
-      '@nuxt/content',
-      'nuxt-og-image',
-      'nuxt-llms'
-    ],
-
-    css: ['~/assets/css/main.css']
-  })
-  ```
-  :::
+  ![](/images/fei_full.png)
 ::
 
 ::u-page-section{class="dark:bg-neutral-950"}

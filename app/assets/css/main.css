@@ -48,6 +48,21 @@ body {
   font-size: 18px;
 }
 
+.titlebg {
+  background-image: url(/images/of_background_temp.png);
+  background-position: center;
+  background-size: cover;
+  overflow-x:hidden;
+}
+
+.titlebg > .flex-col {
+  background-color: #ffffffcc;
+  margin: 0 !important;
+  padding-left: 50px;
+    width: 100vw;
+    box-sizing: content-box;
+}
+
 td, th, code {
   font-size: 18px;
 }
