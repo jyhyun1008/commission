@@ -12,10 +12,12 @@ orientation: horizontal
 :hero-background
 
 #title
-Ship Beautiful [Documentation]{.text-primary}.
+섬세하고 아름다운 [탐험 RPG]{.text-primary}.
 
 #description
-Build professional documentation with Nuxt UI's powerful components, enhanced typography, and seamless Nuxt Content integration. The same system trusted by the entire [Nuxt ecosystem](https://nuxt.com).
+...를 플레이 하면서 알게 된 점을 정리하고 있어요.
+
+본 위키는 현재까지는 100% 유저 한 명에 의해 작성된 비공식 팬 페이지입니다. 느긋하게 게임을 진행하는 유저가 플레이 중 알게 된 정보를 바탕으로 작성하므로 누락된 정보는 상당히 많은 편이며, 잘못된 정보가 포함되어 있을 수 있습니다. 최대한 인게임 내 텍스트를 반영하고 있지만, 미번역 부분이라든지 오탈자 부분은 수정해서 올리고 있습니다. 이외의 부분은 [공식 홈페이지](https://kr.overfieldgame.com/) 및 [오버필드 중문 위키](https://wiki.biligame.com/kfkjof/%E9%A6%96%E9%A1%B5) 에서 가져오고 있습니다.
 
 #links
   :::u-button
