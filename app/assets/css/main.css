@@ -82,6 +82,12 @@ th:nth-child(1), td:nth-child(1) {
   width: 20%;
 }
 
+td:nth-child(1) img {
+  aspect-ratio: 1;
+  object-fit: cover;
+  object-position: 20%;
+}
+
 .coin {
   height: 1.5rem;
   width: 1.5rem;
