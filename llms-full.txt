@@ -11,7 +11,7 @@
   ---
   icon: i-lucide-keyboard-music
   title: MR 작업
-  to: https://commission.howeverina.studio/inst/
+  to: https://commission.howeverina.studio/menu/inst/
   ---
   50,000\~
   :::
@@ -20,7 +20,7 @@
   ---
   icon: i-lucide-speaker
   title: 믹싱/마스터링
-  to: https://commission.howeverina.studio/mix/
+  to: https://commission.howeverina.studio/menu/mix/
   ---
   30,000\~
   :::
@@ -29,7 +29,7 @@
   ---
   icon: i-lucide-clapperboard
   title: 영상 작업
-  to: https://commission.howeverina.studio/video/
+  to: https://commission.howeverina.studio/menu/video/
   ---
   50,000\~
   :::
@@ -38,7 +38,7 @@
   ---
   icon: i-lucide-image
   title: 일러스트
-  to: https://commission.howeverina.studio/paint/
+  to: https://commission.howeverina.studio/menu/paint/
   ---
   15,000\~
   :::
