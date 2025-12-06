@@ -1,7 +1,7 @@
 export default defineAppConfig({
   ui: {
     colors: {
-      primary: 'teal',
+      primary: 'rose',
       neutral: 'slate'
     },
     footer: {
@@ -12,10 +12,10 @@ export default defineAppConfig({
     }
   },
   seo: {
-    siteName: '오버필드 비공식 위키'
+    siteName: '연이나 커미션 페이지'
   },
   header: {
-    title: '오버필드 비공식 위키',
+    title: '연이나 커미션 페이지',
     to: '/',
     logo: {
       alt: '',

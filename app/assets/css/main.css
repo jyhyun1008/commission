@@ -19,6 +19,17 @@
   --color-green-900: #0A5331;
   --color-green-950: #052E16;
 }
+
+
+@font-face {
+    font-family: 'g_cocoartz';
+    src: url('https://blog.howeverina.studio/font/Griun_Cocoartz-Rg.woff2') format('woff2');
+    font-weight: 400;
+    font-display: swap;
+    ascent-override: 80%;  /* 위쪽 여백 줄이기 */
+    descent-override: 20%; /* 아래쪽 여백 늘리기 */
+}
+
 @font-face {
     font-family: 'GyeonggiMillenniumTitle';
     src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/2410-3@1.0/Title_Light.woff') format('woff');
@@ -71,7 +82,7 @@ code {
 }
 
 * {
-  font-family:'GyeonggiMillenniumTitle';
+  font-family:'g_cocoartz';
 }
 
 td, th {
