@@ -60,7 +60,7 @@ body {
 }
 
 .titlebg {
-  background-image: url(/images/of_background_temp.png);
+  background-image: url(/images/sample.png);
   background-position: center;
   background-size: cover;
 }
@@ -82,7 +82,7 @@ code {
 }
 
 * {
-  font-family:'g_cocoartz';
+  font-family:'GyeonggiMillenniumTitle';
 }
 
 td, th {
