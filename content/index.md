@@ -12,10 +12,12 @@ orientation: horizontal
 :hero-background
 
 #title
-연이나 <br>[커미션 페이지]{.text-primary}.
+뭐든 해드리는 <br>[커미션 샘플 페이지]{.text-primary}.
 
 #description
-커미션을 받고 있습니다!
+안녕하세요, 이곳은 연이나의 커미션 작업물 및 샘플을 전시하는 곳입니다. 커미션 신청 시 참고 바랍니다.
+
+이 사이트는 nuxt의 템플릿을 이용하여 직접 만들었으나, 웹사이트 관련 커미션은 받지 않습니다. 음악과 일러스트 약간만 취급합니다.
 
 #links
   :::u-button
@@ -33,10 +35,10 @@ orientation: horizontal
   color: neutral
   variant: outline
   size: xl
-  to: https://github.com/nuxt-ui-templates/docs
+  to: https://crepe.cm/@however_ina
   target: _blank
   ---
-  Use this template
+  크레페 구경하기
   :::
 
 #default
